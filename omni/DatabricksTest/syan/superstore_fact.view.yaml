@@ -1,0 +1,75 @@
+# Reference this view as syan__superstore_fact
+schema: syan
+table_name: superstore_fact
+
+dimensions:
+  row_id:
+    sql: "`ROW ID`"
+    format: ID
+
+  order_id:
+    sql: "`ORDER ID`"
+    format: ID
+
+  order_date:
+    sql: "`ORDER DATE`"
+
+  ship_date:
+    sql: "`SHIP DATE`"
+
+  ship_mode:
+    sql: "`SHIP MODE`"
+
+  customer_id:
+    sql: "`CUSTOMER ID`"
+    format: ID
+
+  customer_name:
+    sql: "`CUSTOMER NAME`"
+
+  segment:
+    sql: "`SEGMENT`"
+
+  country_region:
+    sql: "`COUNTRY REGION`"
+
+  city:
+    sql: "`CITY`"
+
+  state_province:
+    sql: "`STATE PROVINCE`"
+
+  postal_code:
+    sql: "`POSTAL CODE`"
+
+  region:
+    sql: "`REGION`"
+
+  product_id:
+    sql: "`PRODUCT ID`"
+    format: ID
+
+  category:
+    sql: "`CATEGORY`"
+
+  sub_category:
+    sql: "`SUB CATEGORY`"
+
+  product_name:
+    sql: "`PRODUCT NAME`"
+
+  sales:
+    sql: "`SALES`"
+
+  quantity:
+    sql: "`QUANTITY`"
+
+  discount:
+    sql: "`DISCOUNT`"
+
+  profit:
+    sql: "`PROFIT`"
+
+measures:
+  count:
+    aggregate_type: count
