@@ -17,9 +17,6 @@ dimensions:
   ship_date:
     sql: "`SHIP DATE`"
 
-  ship_mode:
-    sql: "`SHIP MODE`"
-
   customer_id:
     sql: "`CUSTOMER ID`"
     format: ID
