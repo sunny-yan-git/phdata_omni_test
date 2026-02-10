@@ -1,4 +1,5 @@
 base_view: summary26
 group_label: Uploaded CSVs
 
-joins: {}
+joins:
+  sec_with_schools: {}
