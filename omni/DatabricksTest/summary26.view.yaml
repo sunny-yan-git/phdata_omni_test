@@ -1,0 +1,71 @@
+# Reference this view as summary26
+uploaded_table_name: summary26.csv::704cb152-7c73-4c73-8edf-500c27c9616d
+
+dimensions:
+  season:
+    sql: "`Season`"
+    display_order: 0
+
+  team_name:
+    sql: "`TeamName`"
+    display_order: 1
+
+  tempo:
+    sql: "`Tempo`"
+    display_order: 2
+
+  rank_tempo:
+    sql: "`RankTempo`"
+    display_order: 3
+
+  adj_tempo:
+    sql: "`AdjTempo`"
+    display_order: 4
+
+  rank_adj_tempo:
+    sql: "`RankAdjTempo`"
+    display_order: 5
+
+  oe:
+    sql: "`OE`"
+    display_order: 6
+
+  rank_oe:
+    sql: "`RankOE`"
+    display_order: 7
+
+  adj_oe:
+    sql: "`AdjOE`"
+    display_order: 8
+
+  rank_adj_oe:
+    sql: "`RankAdjOE`"
+    display_order: 9
+
+  de:
+    sql: "`DE`"
+    display_order: 10
+
+  rank_de:
+    sql: "`RankDE`"
+    display_order: 11
+
+  adj_de:
+    sql: "`AdjDE`"
+    display_order: 12
+
+  rank_adj_de:
+    sql: "`RankAdjDE`"
+    display_order: 13
+
+  adj_em:
+    sql: "`AdjEM`"
+    display_order: 14
+
+  rank_adj_em:
+    sql: "`RankAdjEM`"
+    display_order: 15
+
+measures:
+  count:
+    aggregate_type: count
